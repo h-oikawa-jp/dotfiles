@@ -1,10 +1,11 @@
 [user]
-  name = ryuihi1208
-  email = ryucrosskey@gmail.com
+  name = h-oikawa
+  email = work@h-oikawa.jp
 
 [core]
   pager = less -R
   excludesfile = ~/.gitignore
+  autocrlf = false
 
 [alias]
   a = add
