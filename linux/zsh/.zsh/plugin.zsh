@@ -4,6 +4,8 @@
 # zplugが無ければインストール
 if [[ ! -d ~/.zplug ]];then
   git clone https://github.com/zplug/zplug ~/.zplug
+  chown -R ${USER} ~/.zplug
+  chmod -R 755 ~/.zplug
 fi
 
 # zplugを有効化する
